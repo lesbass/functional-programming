@@ -713,7 +713,7 @@ export declare const getCurrentUser: (id: number) => User
 
 In questa sede però vorrei parlare del problema di design dal punto di vista più generale possibile.
 
-Dunque per restituire un valore di tipo `User` devo considerare tutte le copie a farne un "merge" (o una "selezione").
+Dunque per restituire un valore di tipo `User` devo considerare tutte le copie e farne un "merge" (o una "selezione").
 
 In altre parole possiamo modellare il criterio con un semigruppo!
 
