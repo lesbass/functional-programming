@@ -686,7 +686,7 @@ type User = {
 }
 ```
 
-e che nel mio database ci siano molte copie dello stesso `User` (per esempio potrebbero essere la storia della sue modifiche)
+e che nel mio database ci siano molte copie dello stesso `User` (per esempio potrebbero essere la storia delle sue modifiche)
 
 ```ts
 // API interne
